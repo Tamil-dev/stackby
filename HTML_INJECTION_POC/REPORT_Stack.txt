@@ -1,0 +1,36 @@
+                                                                      :HTML INJECTION:
+
+
+
+
+Vulnerable Domain: https://stage9.stackby.com
+
+Vulnerability Type: HTML INJECTION
+
+Description:
+         Hai I am Tamil murasu i am a Security Researcher ,
+                     I found a HTML Injection on https://stage9.stackby.com website.It can allow an attacker to modify the page. 
+         To steal another person's identity. The attacker discovers injection vulnerability and decides to use an HTML injection attack. 
+         Attacker crafts malicious links, including his injected HTML content on this website.
+
+Steps-To-Reproduce:
+ 	
+	1. Go to https://stage9.stackby.com
+	
+	2. Create a new Table and enter any value 
+
+	3. Now turn on the proxy and capture the request
+
+	4. Change the message body tag
+
+	5. Now html injection is executed
+	
+CODE:
+  	
+   	 1. The normal request looks like this <p> hai </p>
+    	 2. Now attacker can change the tag <h1> hai</h1>
+
+IMPACT:
+	 1. HTML INJECTION
+         2 .It can allow an attacker to modify the page. To steal another person's identity.The attacker discovers injection vulnerability and decides to use an HTML injection attack. 
+     Attacker crafts malicious links, including his injected HTML content on this website.
